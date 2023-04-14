@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+    background-position: center;
+}
+.logo{
+    float: left;
+    padding-top: 50px;
+    margin-left: 30px;
+    padding-left: 40px;
+}
+.dropdown{
+    width: 100px;
+    float: left;
+    text-align: center;
+    border: none;
+    margin-left: 30px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.menu-bar{
+    display: flex;
+    align-items: center;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    font-size: 14px;
+    width: 5px;
+    display: flex;
+   
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    width: 10px;
+    
+}
+ul li a:hover{
+    color: brown;
+}
+
+
+
+
+.sign-up{
+    float: right;
+    margin-top: 30px;
+    text-decoration: none;
+    padding-right: 80px;
+    margin-right: 150px;
+    display: flex;
+}
+.sign-up li{
+    display: flex;
+    padding-right: 40px;
+}
+.sign-up:hover{
+    color: brown;
+}
+.login{
+    border: none;
+    padding-top: 40px;
+    margin-right: 2px;
+    padding-right: 3px;
+
+}
+.sign-up .login{
+    padding: 10px;
+    padding-right: 3px;
+    padding-top: 11px;
+  
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    padding: 300px;
+    padding-left: 0px;
+    padding-top: 200px;
+    
+}
+.content h1{
+    font-size: 70px;
+    padding-left: 1px;
+    margin-left: 40px;
+    font-family: sans-serif
+}
+.content .par{
+    padding-left: 43px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.content .ln{
+    width: 100px;
+    height: 40px;
+    background: black; 
+    border: black;
+    color: bisque;
+    margin-left: 40px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.ln:hover{
+    background: white;
+    text-decoration: none;
+    color: black;
+}
+.ln a{
+    color:brown;
+    text-decoration: none;
+}
+
+.sponsor{
+    padding-top: 20px;
+    margin-right: 30px;
+    margin-top: 50px;
+    padding-left: 40px;
+}
+.left-side{
+    float: right;
+    padding-top: 100px;
+    max-width: 100px; 
+    max-height: 50px;
+    padding-right: 80px;
+    margin-right: 150px;
+}
+.left-side img{
+    max-width: 1450px; 
+    max-height: 550px;
+}
